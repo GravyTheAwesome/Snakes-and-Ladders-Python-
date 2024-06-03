@@ -72,8 +72,6 @@ class SnakesAndLadders:
             self.players_spaces[player] = 100 - excess_spaces
             print(msg.format(player, excess_spaces, self.players_spaces[player]))
             return False
-        else:
-            pass
 
 
     def play_again(self):
